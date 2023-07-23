@@ -1,0 +1,33 @@
+.pokemonCard{
+    display: block;
+    border: .2vw solid #646464de;
+    text-align: center;
+    width: 20em;
+    height: 17em;
+    border-radius: 1em;
+
+    &__image{
+        width: 18em;
+        max-height: 9em;
+        min-height: 9em;
+        margin: 1vh 0 0 0;
+    }
+
+    &__types{
+        margin-top: 2vh;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__name{
+        margin: 1vh 0 2vh 0;
+    }
+}
+.types{
+    text-align: center;
+    width: 7em !important;
+    height: 3em;
+    border: 0;
+    border-radius: 1em;
+    height: 3em;
+}
